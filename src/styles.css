@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Quiz > * {
+  margin: 1rem;
+}
+
+button {
+  width: 7rem;
+  padding-block: 0.75rem;
+  margin-inline: 0.3rem;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  padding: 0.4rem;
+  margin-inline: 0.1rem;
+}
